@@ -1,0 +1,28 @@
+<!-- Jenna Sgarlata -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="CoinFlipper.css">
+    <title>Jenna Sgarlata</title>
+    <script src="CoinFlipper.js"></script>
+</head>
+<body id="body">
+    <h1>Jenna Sgarlata's Coin Flipper</h1>
+    <h2>v2</h2>
+    <table id="inputTable">
+        <tr>
+            <td class="inputLbl">Number of Coins</td>
+            <td><input type="text" id="coins_text"></td>
+            <td id="coinError"></td>
+        </tr>
+        <tr>
+            <td class="inputLbl">Number of Throws</td>
+            <td><input type="text" id="throws_text"></td>
+            <td id="throwError"></td>
+        </tr>
+    </table>
+    <input type="button" id="go_button" value="Go!" onclick=" var coinFlipper = new CoinFlipper; coinFlipper.init()">
+    <div id="output"></div>
+</body>
+</html>

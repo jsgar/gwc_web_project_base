@@ -1,0 +1,72 @@
+/*
+ Jenna Sgarlata
+ SE 2840-021
+ */
+@media print{
+    body, th, td{
+        font: 16px "Times New Roman", serif !important;
+        color: black !important;
+        background-color: white !important;
+    }
+
+    img{
+        filter: grayscale(1);
+    }
+
+    a{
+        color: black;
+    }
+}
+
+body {
+    text-align: center;
+    font: 16px Arial, sans-serif;
+    background-color: aquamarine;
+    color: darkslategrey;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: dashed;
+    width: 85%;
+}
+
+th {
+    background-color: black;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    width: 15%;
+}
+
+td {
+    color: black;
+}
+
+td.gs1003 {
+    background-color: aqua;
+    color: midnightblue;
+}
+
+td.se2840 {
+    background-color: deepskyblue;
+    color: navy;
+}
+
+td.se2811 {
+    background-color: springgreen;
+    color: darkgreen;
+}
+
+td.cs2711 {
+    background-color: teal;
+    color: lightskyblue;
+}
+.time {
+    width: 10%
+}

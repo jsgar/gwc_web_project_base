@@ -1,0 +1,35 @@
+/*
+    Jenna Sgarlata
+ */
+
+body {
+    background-color: cornflowerblue ;
+}
+
+td {
+    padding :0;
+    width: auto;
+}
+meter {
+    width: 90%;
+}
+
+#inputTable {
+    width: 50%;
+}
+
+#histogram {
+    width: 100%;
+}
+
+td.numCell {
+    width: 5%;
+}
+td.barCell {
+    width: 90%;
+}
+
+td.inputLbl {
+    width: 20%;
+}
+

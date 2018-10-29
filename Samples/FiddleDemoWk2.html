@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      table, th, td {
+      border: 1px solid black;
+      }
+
+      #html {
+      font-weight: bold
+      }
+
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="color: navy">
+      Welcome to my JSFiddle Demo!
+    </h1>
+    <h2>
+      Week 2 - Girls Who Code
+    </h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/GWC_logo_2016_.png/1200px-GWC_logo_2016_.png" class="center">
+    <p>Use the <span id="html">HTML</span> part to decide how to layout your page. This is where you write the code to make create elements like:
+      <ul>
+        <li>Buttons</li>
+        <li>Text</li>
+        <li>Tables</li>
+        <li>Pictures</li>
+      </ul>
+    </p>
+    <button id="clickButton" onclick='document.getElementById("outputArea").innerHTML = "It worked! Look at the <strong>JavaScript</strong> part to see how I did it.";
+'>Click me!</button>
+    <p id="outputArea"></p>
+    <h3>
+      Resources
+    </h3>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td>
+          <a href="https://www.w3schools.com/html/default.asp">W3 Schools</a>
+        </td>
+        <td>
+          This is a website where you can find quick tutorials on how to make different HTML components. It's nice for when you want to find out how to do a specific thing and don't have time for an hour tutorial. You can also learn more about styling and dynamic
+          web page development.
+        </td>
+        <tr>
+          <td>
+            <a href="https://www.codecademy.com/learn/learn-html">Code Academy</a>
+          </td>
+          <td>
+            This is a really long tutorial that you can do on your own time.
+          </td>
+        </tr>
+    </table>
+  </body>
+</html>
